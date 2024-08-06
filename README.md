@@ -95,9 +95,27 @@ Option 2: Regular Expressions
 Database Setup:
 - Create a Postgres database named crowdfunding_db.
 - Use crowdfunding_db_schema.sql to create tables.
+<p align="center">
+    <img width="1000" src="crowdfunding_db_postgres_edb.png">
+</p>
+<p align="center">
+    <img width="1000" src="crowdfunding_db_quickdatabasediagram.png">
+</p>
 - Verify table creation with SELECT statements.
 - Import each CSV file into the corresponding table.
 - Verify data integrity with SELECT statements.
+<p align="center">
+    <img width="1000" src="category_sql.png">
+</p>
+<p align="center">
+    <img width="1000" src="subcategory_sql.png">
+</p>
+<p align="center">
+    <img width="1000" src="contacts_sql.png">
+</p>
+<p align="center">
+    <img width="1000" src="campaign_sql.png">
+</p>
 
 Hints
 - To split columns: df[["new_column1","new_column2"]] = df["column"].str.split().
